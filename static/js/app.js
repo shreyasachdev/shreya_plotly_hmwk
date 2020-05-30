@@ -2,15 +2,15 @@
 // Incoming data is internally referred to as incomingData
 var data = d3.json("samples.json") function(data){
     console.log(data)};
-var values = data.sample_values
-var labels = data.otu_ids
-var hovertext = data.otu_labels
+// var values = data.sample_values
+// var labels = data.otu_ids
+// var hovertext = data.otu_labels
   
-    // Use filter() to pass the function as its argument
-    // var filteredMovies = incomingData.filter(filterMovieRatings);
+//     // Use filter() to pass the function as its argument
+//     // var filteredMovies = incomingData.filter(filterMovieRatings);
   
-    //  Check to make sure your are filtering your movies.
-    console.log(values);
+//     //  Check to make sure your are filtering your movies.
+//     console.log(values);
   
     // Use the map method with the arrow function to return all the filtered movie titles.
     // var titles = filteredMovies.map(movies =>  movies.title);
